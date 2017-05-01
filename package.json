@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "babel-preset-env": "^1.4.0",
+    "css-loader": "^0.28.0",
+    "express": "^4.15.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "handlebars": "^4.0.7",
+    "handlebars-loader": "^1.5.0",
+    "nodemon": "^1.11.0",
+    "null-loader": "^0.1.1",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1",
+    "webpack-node-externals": "^1.5.4"
+  },
+  "scripts": {
+    "build:client": "webpack --config build/webpack.client.js",
+    "build:server": "webpack --config build/webpack.server.js",
+    "server": "nodemon ./dist/server/bundle.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "json-loader": "^0.5.4"
+  }
+}

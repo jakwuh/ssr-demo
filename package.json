@@ -21,6 +21,7 @@
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-polyfill": "^6.23.0",
-    "json-loader": "^0.5.4"
+    "json-loader": "^0.5.4",
+    "lru-cache": "^4.0.2"
   }
 }

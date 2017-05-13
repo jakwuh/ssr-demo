@@ -5,7 +5,7 @@ import {GeneratorStream} from '../libs/stream/GeneratorStream';
 import documentGenerator from '../pages/DocumentGenerator';
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT ||  '3000';
 
 app.use('/dist', express.static('dist/client/'));
 app.use(startTimer);
